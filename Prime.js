@@ -1,8 +1,14 @@
-let n=57
-for (let i=1; i<=57/6; i++) {
-    for(let j=1; j<=i/6; j++) {
-      if(i===2 || i===3 || i===6*j+1 || i===6*j+1) {
-        console.log("Prime")
-      } else {console.log("Composite")}
+let a=57
+let count=0;
+for(let i = 1; i <= a; i++){
+    if(a%i==0){
+        count++;
     }
+}
+
+if(count == 2){
+    console.log("True")
+}
+else{
+    console.log("False")
 }
