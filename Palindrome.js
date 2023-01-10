@@ -5,4 +5,4 @@ let test="";
       test += str[i];
   }
   
-  (test == str) ? console.log("Yes"): console.log("No");
+  (test = str) ? console.log("Yes"): console.log("No");
