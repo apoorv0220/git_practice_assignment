@@ -6,7 +6,7 @@ for(let i = 1; i <= a; i++){
     }
 }
 
-if(count == 2){
+if(count = 2){
     console.log("True")
 }
 else{
